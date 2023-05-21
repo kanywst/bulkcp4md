@@ -1,0 +1,20 @@
+{
+    "name": "bulkcp4md",
+    "description": "bulkcp4md is bulk copy of title and URL for markdown",
+    "version": "0.0.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "action": {},
+    "background": {
+		"service_worker": "main.js"
+	},
+    "commands": {
+        "_execute_action": {
+        "suggested_key": {
+            "default": "Ctrl+Shift+L",
+            "mac": "MacCtrl+Shift+L"
+        },
+        "description": "Bulk copy of title and URL."
+        }
+    }
+}
