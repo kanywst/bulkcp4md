@@ -11,8 +11,8 @@
     "commands": {
         "_execute_action": {
         "suggested_key": {
-            "default": "Ctrl+Shift+H",
-            "mac": "MacCtrl+Shift+H"
+            "default": "Ctrl+Shift+L",
+            "mac": "MacCtrl+Shift+L"
         },
         "description": "Bulk copy of title and URL."
         }
